@@ -1,0 +1,70 @@
+
+export const US_STATES = [
+  'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA',
+  'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
+  'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ',
+  'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC',
+  'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
+];
+
+export const MOCK_TRUCKS = [
+  { id: 'TRK-902', name: 'Kenworth T680' },
+  { id: 'TRK-441', name: 'Peterbilt 579' },
+  { id: 'TRK-112', name: 'Freightliner Cascadia' },
+  { id: 'TRK-775', name: 'Volvo VNL 860' },
+  { id: '114', name: 'Unit 114' }
+];
+
+// 2026 IFTA Diesel Tax Rates per Gallon
+export const STATE_TAX_RATES: Record<string, number> = {
+  'AL': 0.2900,
+  'AZ': 0.2600,
+  'AR': 0.2850,
+  'CA': 0.6810,
+  'CO': 0.2050,
+  'CT': 0.4090,
+  'DE': 0.2200,
+  'DC': 0.2350,
+  'FL': 0.3590,
+  'GA': 0.3510,
+  'ID': 0.3200,
+  'IL': 0.4670,
+  'IN': 0.5400,
+  'IA': 0.3250,
+  'KS': 0.2600,
+  'KY': 0.2460,
+  'LA': 0.2000,
+  'ME': 0.3120,
+  'MD': 0.3775,
+  'MA': 0.2640,
+  'MI': 0.2630,
+  'MN': 0.2850,
+  'MS': 0.1800,
+  'MO': 0.2200,
+  'MT': 0.2975,
+  'NE': 0.2840,
+  'NV': 0.2700,
+  'NH': 0.2220,
+  'NJ': 0.3850,
+  'NM': 0.2100,
+  'NY': 0.3905,
+  'NC': 0.3820,
+  'ND': 0.2300,
+  'OH': 0.3850,
+  'OK': 0.1900,
+  'OR': 0.3800,
+  'PA': 0.7410,
+  'RI': 0.3400,
+  'SC': 0.2800,
+  'SD': 0.2800,
+  'TN': 0.2700,
+  'TX': 0.2000,
+  'UT': 0.3150,
+  'VT': 0.3100,
+  'VA': 0.2990,
+  'WA': 0.4940,
+  'WV': 0.3570,
+  'WI': 0.3090,
+  'WY': 0.2400,
+  'DEFAULT': 0.3500
+};

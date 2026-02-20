@@ -1,0 +1,7 @@
+{
+  "name": "IFTA Compliance & Tracker Pro",
+  "description": "A comprehensive IFTA management dashboard for US trucking fleets, featuring automated tax liability calculations, jurisdiction tracking, and AI-driven compliance insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
