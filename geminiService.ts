@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Trip } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 export const getComplianceInsights = async (trips: Trip[]) => {
   const prompt = `Analyze the following IFTA trip logs for potential audit risks or data inconsistencies. 
